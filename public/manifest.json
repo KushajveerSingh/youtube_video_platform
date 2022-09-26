@@ -1,0 +1,11 @@
+{
+  "name": "Youtube Video Platform",
+  "short_name": "youtube_video_platform",
+  "description": "A Youtube clone built using Next.js / Material-UI.",
+  "theme_color": "#42a5f5",
+  "background_color": "#42a5f5",
+  "display": "standalone",
+  "orientation": "landscape",
+  "scope": "/",
+  "start_url": "/"
+}
