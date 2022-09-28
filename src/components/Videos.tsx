@@ -8,7 +8,7 @@ interface Props {
 }
 
 const Videos = ({ videos, direction }: Props) => {
-  if (!videos?.length) return <span>Loading...</span>;
+  if (!videos?.length) return null;
 
   return (
     <Stack

@@ -26,7 +26,7 @@ const VideoDetail = () => {
     );
   }, [id]);
 
-  if (!videoDetail?.snippet) return <sapn>Loading...</sapn>;
+  if (!videoDetail?.snippet) return null;
 
   const {
     snippet: { title, channelId, channelTitle },
