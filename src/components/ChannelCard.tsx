@@ -1,7 +1,8 @@
+import Link from 'next/link';
 import { Box, CardContent, CardMedia, Typography } from '@mui/material';
 import { CheckCircle } from '@mui/icons-material';
-import Link from 'next/link';
-import { Item } from '../utils/apiTypes';
+
+import type { Item } from '../utils/apiTypes';
 
 interface Props {
   channelDetail?: Item;
@@ -13,13 +14,13 @@ const ChannelCard = ({ channelDetail, marginTop }: Props) => {
     <Box
       sx={{
         boxShadow: 'none',
-        borderRadisu: '20px',
+        borderRadius: '20px',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
         width: { xs: '356px', md: '320px' },
         height: '326px',
-        margin: 'auro',
+        margin: 'auto',
         marginTop,
       }}
     >

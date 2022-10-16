@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Box, Stack, Typography } from '@mui/material';
-import { Sidebar, Videos } from './';
 
+import { Sidebar, Videos } from './';
 import { fetchFromAPI } from '../utils/fetchFromAPI';
 
 const Feed = () => {
@@ -29,9 +29,6 @@ const Feed = () => {
           selectedCategory={selectedCategory}
           setSelectedCategory={setSelectedCategory}
         />
-        {/* <Typography className="copyright" variant="body2" sx={{ mt: 1.5, color: '#fff' }}>
-          Copyright 2022 Kushajveer Singh
-        </Typography> */}
       </Box>
 
       <Box p={2} sx={{ overflowY: 'auto', height: '90vh', flex: 2 }}>

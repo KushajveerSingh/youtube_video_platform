@@ -1,12 +1,11 @@
 import { useState, useEffect } from 'react';
-import type { NextPage } from 'next';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
+import type { NextPage } from 'next';
 import { Box } from '@mui/material';
+
 import { Videos, ChannelCard } from '../../components';
 import { fetchFromAPI } from '../../utils/fetchFromAPI';
-
-let original;
 
 const ChannelDetail: NextPage = () => {
   const [channelDetail, setChannelDetail] = useState();

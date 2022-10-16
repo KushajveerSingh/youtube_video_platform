@@ -9,8 +9,18 @@ import ReactPlayer from 'react-player';
 import { Videos } from '../../components';
 import { fetchFromAPI } from '../../utils/fetchFromAPI';
 
+interface TypeVideoDetail {
+  snippet: null | { title: string; channelId: string; channelTitle: string };
+  statistics: { viewCount: string; likeCount: string };
+}
+
+const initialVideoDetail: TypeVideoDetail = {
+  snippet: null,
+  statistics: { viewCount: '0', likeCount: '0' },
+};
+
 const VideoDetail = () => {
-  const [videoDetail, setVideoDetail] = useState(null);
+  const [videoDetail, setVideoDetail] = useState(initialVideoDetail);
   const [videos, setVideos] = useState(null);
 
   const router = useRouter();
@@ -61,7 +71,7 @@ const VideoDetail = () => {
               >
                 <Link href={`/channel/${channelId}`}>
                   <a>
-                    <Typography variant={{ sm: 'subtitle1', md: 'h6' }} color="#fff">
+                    <Typography variant="h6" color="#fff">
                       {channelTitle}
                       <CheckCircle sx={{ fontSize: '12px', color: 'gray', ml: '5px' }} />
                     </Typography>

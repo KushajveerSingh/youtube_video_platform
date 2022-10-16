@@ -1,5 +1,6 @@
 import { Stack } from '@mui/material';
-import { categories } from '../utils/constants';
+
+import { categories } from '../utils/categories';
 
 interface Props {
   selectedCategory: string;

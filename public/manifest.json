@@ -1,7 +1,7 @@
 {
   "name": "Youtube Video Platform",
   "short_name": "youtube_video_platform",
-  "description": "A Youtube clone built using Next.js / Material-UI.",
+  "description": "Fully responsive youtube clone application built using Youtube API with new video section, custom categories, responsive channel and video cards, video pages where you can play videos straight from the app and see related videos.",
   "theme_color": "#42a5f5",
   "background_color": "#42a5f5",
   "display": "standalone",

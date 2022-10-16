@@ -1,4 +1,3 @@
-import { SvgIconComponent } from '@mui/icons-material';
 import MusicNoteIcon from '@mui/icons-material/MusicNote';
 import HomeIcon from '@mui/icons-material/Home';
 import CodeIcon from '@mui/icons-material/Code';
@@ -15,7 +14,6 @@ import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
 
 export const categories = [
   { name: 'New', icon: <HomeIcon /> },
-  // { name: 'JS Mastery', icon: <CodeIcon /> },
   { name: 'Coding', icon: <CodeIcon /> },
   { name: 'ReactJS', icon: <CodeIcon /> },
   { name: 'NextJS', icon: <CodeIcon /> },

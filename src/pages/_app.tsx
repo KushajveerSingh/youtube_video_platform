@@ -2,7 +2,7 @@ import Head from 'next/head';
 import { AppProps } from 'next/app';
 import { CacheProvider, EmotionCache } from '@emotion/react';
 import createEmotionCache from '../utils/createEmotionCache';
-import '../assets/global.css';
+import '../global.css';
 import { Navbar } from '../components';
 
 const clientSideEmotionCache = createEmotionCache();

@@ -1,7 +1,7 @@
 import { useState } from 'react';
+import { useRouter } from 'next/router';
 import { Paper, IconButton } from '@mui/material';
 import SearchIcon from '@mui/icons-material/Search';
-import { useRouter } from 'next/router';
 
 const SearchBar = () => {
   const [searchTerm, setSearchTerm] = useState('');

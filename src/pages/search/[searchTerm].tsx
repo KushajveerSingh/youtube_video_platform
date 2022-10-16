@@ -1,10 +1,10 @@
+import { useState, useEffect } from 'react';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import type { NextPage } from 'next';
-import { useState, useEffect } from 'react';
 import { Box, Stack, Typography } from '@mui/material';
-import { Videos } from '../../components';
 
+import { Videos } from '../../components';
 import { fetchFromAPI } from '../../utils/fetchFromAPI';
 
 const SearchFeed: NextPage = () => {

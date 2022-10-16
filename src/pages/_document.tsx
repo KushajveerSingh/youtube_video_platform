@@ -7,14 +7,18 @@ export default class MyDocument extends Document {
   render() {
     const title = 'Youtube Video Platform';
     const url = 'https://github.com/KushajveerSingh/youtube_video_platform';
-    const description = 'A Youtube clone built using Next.js / Material-UI.';
-    const image = ''; // Provide url to png image
+    const description =
+      'Fully responsive youtube clone application built using Youtube API with new video section, custom categories, responsive channel and video cards, video pages where you can play videos straight from the app and see related videos.';
+    const image = '/demo_image.png';
     return (
       <Html lang="en">
         <Head>
           <meta name="author" content="Kushajveer Singh" />
           <meta name="description" content={description} />
-          <meta name="keywords" content="Reactjs,Nextjs,TypeScript,meterial-ui,demo-app,youtube" />
+          <meta
+            name="keywords"
+            content="Reactjs,Nextjs,TypeScript,meterial-ui,demo-app,youtube"
+          />
 
           <meta property="og:url" content={url} />
           <meta property="og:type" content="website" />
@@ -34,7 +38,10 @@ export default class MyDocument extends Document {
             rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
           />
-          <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+          <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          />
           <meta name="emotion-insertion-point" content="" />
           {(this.props as any).emotionStyleTags}
         </Head>

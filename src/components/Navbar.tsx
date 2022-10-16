@@ -1,9 +1,15 @@
-import Link from 'next/link';
 import Image from 'next/image';
+import Link from 'next/link';
 import { Box, Stack } from '@mui/material';
+import type { ReactNode } from 'react';
+
 import { SearchBar } from './';
 
-const Navbar = ({ children }: any) => {
+interface Props {
+  children: ReactNode;
+}
+
+const Navbar = ({ children }: Props) => {
   return (
     <Box sx={{ backgroundColor: '#000' }}>
       <Stack
@@ -24,7 +30,6 @@ const Navbar = ({ children }: any) => {
         </Link>
         <SearchBar />
       </Stack>
-
       {children}
     </Box>
   );

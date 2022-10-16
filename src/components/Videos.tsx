@@ -1,6 +1,7 @@
 import { Stack, Box } from '@mui/material';
+
 import { VideoCard, ChannelCard } from './';
-import { Item } from '../utils/apiTypes';
+import type { Item } from '../utils/apiTypes';
 
 interface Props {
   videos: Item[] | null;
