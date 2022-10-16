@@ -21,14 +21,22 @@ Fully-responsive youtube clone application built using React/Next.js/TypeScript/
 ### Search Videos
 Search for your favorite videos and play them straight from the app. You can also see related videos and the number of views/likes on the video and visit the channel page to view other videos by the creator.
 
+https://user-images.githubusercontent.com/24699564/196017941-20e9219f-76f0-417b-8f80-f7535fe61409.mp4
+
 ### Search By Categories
 To find new videos from prespecified categories you can click on one of the category in the sidebar.
+
+https://user-images.githubusercontent.com/24699564/196017946-f83032b2-25f2-4071-b3f1-d5f8e7c18f3d.mp4
 
 ### View channels
 You can search for youtube channels, see their subscribers, videos uploaded by them on a custom channel page.
 
+https://user-images.githubusercontent.com/24699564/196017952-67b6cb20-1674-488b-bff3-ae27cf67aaa1.mp4
+
 ### Fully responsive
 All the pages including the home page, video page, channel page are fully-responsive.
+
+https://user-images.githubusercontent.com/24699564/196017960-e8e51ea1-f7d3-46c8-9112-2132140df5b4.mp4
 
 ## Dependencies
 - [React](https://reactjs.org/)
