@@ -6,13 +6,29 @@
 Fully-responsive youtube clone application built using React/Next.js/TypeScript/Material-UI and Youtube API. Implemented video section, category section, responsive channel and video cards, channel pages, video pages with ability to play videos straight from the app and see related videos.
 
 ## Table of Contents
-- [Demo Videos](#examples)
+- [Demo Videos](#demo-videos)
+    - [Search videos](#search-videos)
+    - [Search by Categories](#search-by-categories)
+    - [View channels](#view-channels)
+    - [Fully responsive](#fully-responsive)
 - [Dependencies](#dependencies)
-- [Local Setup](#setup)
+- [Local Setup](#local-setup)
 - [Directory Setup](#directory-setup)
 - [License](#license)
 
-## Demo Examples
+## Demo Videos
+
+### Search Videos
+Search for your favorite videos and play them straight from the app. You can also see related videos and the number of views/likes on the video and visit the channel page to view other videos by the creator.
+
+### Search By Categories
+To find new videos from prespecified categories you can click on one of the category in the sidebar.
+
+### View channels
+You can search for youtube channels, see their subscribers, videos uploaded by them on a custom channel page.
+
+### Fully responsive
+All the pages including the home page, video page, channel page are fully-responsive.
 
 ## Dependencies
 - [React](https://reactjs.org/)
@@ -23,7 +39,7 @@ Fully-responsive youtube clone application built using React/Next.js/TypeScript/
 - [Axios](https://axios-http.com/docs/intro)
 - [RapidAPI Youtube v3](https://rapidapi.com/ytdlfree/api/youtube-v31/)
 
-## Setup
+## Local Setup
 **Step 1**. Setup Node.js v16.17.1. [nvm](https://github.com/nvm-sh/nvm) can be used to quickly setup Node.js (and you can also have multiple versions of Node.js).
 ```
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
