@@ -3,7 +3,9 @@
 
 ![](assets/demo_image.png)
 
-Fully-responsive youtube clone application built using React/Next.js/TypeScript/Material-UI and Youtube API. Implemented video section, category section, responsive channel and video cards, channel pages, video pages with ability to play videos straight from the app and see related videos.
+- Developed and deployed a YouTube clone application on Vercel in React/Next.js and TypeScript, leveraging Material UI for a visually appealing and responsive design, and using RapidAPI to access YouTube v3 API endpoints for fetching video and channel data.
+- Acquired expertise in React functional components and their reusability, efficient file and folder structure, and mastery of Material UI, enabling the ability to build any API-driven web application.
+- Ensured optimal responsiveness across devices using well-crafted media queries, and utilized RapidAPI Vscode extension for API testing, demonstrating proficiency in creating a seamless, fully-functional video browsing experience.
 
 ## Table of Contents
 - [Demo Videos](#demo-videos)
