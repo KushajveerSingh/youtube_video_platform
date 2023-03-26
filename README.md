@@ -67,7 +67,7 @@ npm install --legacy-peer-deps
 - `NEXT_PUBLIC_BASE_URL` - set to `http://localhost:3000/` during development and when you deploy the project on Vercel, set it to the domain where the project is hosted.
 - `NEXT_PUBLIC_RAPID_API_KEY` - Goto [RapidAPI Youtube v3](https://rapidapi.com/ytdlfree/api/youtube-v31/) and create a new account. After creating an account, you can click **Subscribe to Test** and this would generate the API key for you.
 
-**Step 4**. Run `make run dev` to start the local development server at `localhost:3000`. Now you can customize the application as per your needs. Further, look at [Directory Setup](#directory-setup) section to understand how the source code is structured.
+**Step 4**. Run `npm run dev` to start the local development server at `localhost:3000`. Now you can customize the application as per your needs. Further, look at [Directory Setup](#directory-setup) section to understand how the source code is structured.
 
 **Step 5**. After making the desired changes, you can push your project to GitHub and you are ready for deployment on [Vercel](https://vercel.com/)
 
